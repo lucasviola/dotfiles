@@ -13,7 +13,7 @@
 
 " Setting line numbers
 set number
-
+set spell spelllang=en_us
 " Setting a leader
 let mapleader = "-"
 
@@ -48,3 +48,5 @@ iabbrev isignature <cr>Lucas Viola<cr>lucasmatzenbacher@gmail.com
 "Whenever I :edit a new file it saves automatically
 autocmd BufNewFile * :write
 autocmd BufNewFile,BufRead *.html, *.xml setlocal nowrap
+"Auto comment - Not working
+" autocmd FileType xml nnoremap <buffer><localleader>cm I<!-- <esc>A --!> 
