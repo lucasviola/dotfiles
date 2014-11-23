@@ -14,9 +14,12 @@
 " Setting line numbers
 set number
 
+" Setting a leader
+let mapleader = "-"
+
 " Modal mapping
-inoremap <c-u> <esc>ui
-inoremap <c-d> <esc>ddi
+inoremap <leader><c-u> <esc>ui
+inoremap <leader><c-d> <esc>ddi
 
 "Recursive bomb: DON'T uncomment this
 "nmap dd O<esc>jddk
