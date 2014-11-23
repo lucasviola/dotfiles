@@ -26,6 +26,8 @@ nnoremap <leader>es :split $MYVIMRC<cr>
 nnoremap <leader>esv :source $MYVIMRC<cr>
 " Put double quotes on wrapped words
 nnoremap <leader>" viw<esc>a"<esc>nbi"<esc>lel
+"inoremap <esc> jk
+inoremap <c-w> <esc> :write <cr>
 
 "Recursive bomb: DON'T uncomment this
 "nmap dd O<esc>jddk
@@ -34,3 +36,4 @@ nnoremap <leader>" viw<esc>a"<esc>nbi"<esc>lel
 iabbrev iemail lucasmatzenbacher@gmail.com
 iabbrev iname LucasViola
 iabbrev isignature <cr>Lucas Viola<cr>lucasmatzenbacher@gmail.com
+
