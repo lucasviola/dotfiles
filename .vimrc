@@ -24,6 +24,8 @@ inoremap <leader><c-d> <esc>ddi
 nnoremap <leader>es :split $MYVIMRC<cr>
 " Now this will reload vim
 nnoremap <leader>esv :source $MYVIMRC<cr>
+" Put double quotes on wrapped words
+nnoremap <leader>" viw<esc>a"<esc>nbi"<esc>lel
 
 "Recursive bomb: DON'T uncomment this
 "nmap dd O<esc>jddk
