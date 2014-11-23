@@ -20,6 +20,12 @@ let mapleader = "-"
 " Modal mapping
 inoremap <leader><c-u> <esc>ui
 inoremap <leader><c-d> <esc>ddi
+" This will open a new buffer with my .vimrc file
+nnoremap <leader>es :split $MYVIMRC<cr>
+" Now this will reload vim
+nnoremap <leader>esv :source $MYVIMRC<cr>
 
 "Recursive bomb: DON'T uncomment this
 "nmap dd O<esc>jddk
+
+
