@@ -28,4 +28,5 @@ nnoremap <leader>esv :source $MYVIMRC<cr>
 "Recursive bomb: DON'T uncomment this
 "nmap dd O<esc>jddk
 
-
+"Abbreviations
+iabbrev waht what
