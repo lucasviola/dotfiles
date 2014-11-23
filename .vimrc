@@ -29,4 +29,5 @@ nnoremap <leader>esv :source $MYVIMRC<cr>
 "nmap dd O<esc>jddk
 
 "Abbreviations
-iabbrev waht what
+iabbrev @@ lucasmatzenbacher@gmail.com
+iabbrev myname Lucas Viola
