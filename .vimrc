@@ -13,7 +13,8 @@
 
 " Setting line numbers
 set number
-set spell spelllang=en_us
+"set spell spelllang=en_us
+
 " Setting a leader
 let mapleader = "-"
 
