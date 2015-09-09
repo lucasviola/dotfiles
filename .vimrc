@@ -46,8 +46,5 @@ iabbrev iemail lucasmatzenbacher@gmail.com
 iabbrev iname LucasViola
 iabbrev isignature <cr>Lucas Viola<cr>lucasmatzenbacher@gmail.com
 
-"Whenever I :edit a new file it saves automatically
-autocmd BufNewFile * :write
-autocmd BufNewFile,BufRead *.html, *.xml setlocal nowrap
 "Auto comment - Not working
 " autocmd FileType xml nnoremap <buffer><localleader>cm I<!-- <esc>A --!> 
