@@ -3,10 +3,11 @@ set term=screen-256color
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-syntax on
 
-"Activating pathogen plugins
+syntax on
 filetype plugin indent on
+
+"Activating pathogen
 execute pathogen#infect()
 
 "NERDTree
