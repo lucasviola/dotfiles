@@ -28,5 +28,5 @@ nnoremap <C-L> <C-W><C-L> "Ctrl-l to move    right a split
 
 "Modal mapping
 "inoremap <leader><C-Q> <esc> :quit <cr>
-
+map <leader>rr :source ~/.vimrc<CR>
 
