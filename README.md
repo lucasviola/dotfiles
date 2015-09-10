@@ -1,3 +1,3 @@
-# VIM FILES
+# DOTFILES
 
-My customized vim configuration files. Feel free to copy :)
+My personal dotfiles. Feel free to copy anything here :)
