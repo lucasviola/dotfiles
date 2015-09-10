@@ -8,9 +8,11 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set backspace=indent,eol,start
+set hidden "leave hidden buffers open
+set history=100
 syntax on
 filetype plugin indent on
-set hidden
+
 
 "Activating pathogen
 execute pathogen#infect()
