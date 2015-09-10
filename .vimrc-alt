@@ -4,10 +4,14 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 syntax on
+
+"Activating pathogen plugins
 filetype plugin indent on
 execute pathogen#infect()
-autocmd vimenter * NERDTree
-map <C-x> :NERDTreeToggle<CR>
+
+"NERDTree
+autocmd vimenter * NERDTree "Configuring so NERDTree comes up when vim starts
+map <C-x> :NERDTreeToggle<CR> 
 
 "Managing splits easier
 nnoremap <C-J> <C-W><C-J> "Ctrl-j to move down a split  
