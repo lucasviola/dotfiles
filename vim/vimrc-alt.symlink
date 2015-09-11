@@ -30,3 +30,11 @@ nnoremap <C-L> <C-W><C-L> "Ctrl-l to move    right a split
 nnoremap <leader><C-Q> <esc> :quit <cr>
 map <leader>rr :source ~/.vimrc<CR>
 
+"Scrolling
+"=========
+"
+" Start scrolling when we're getting close to margins
+set scrolloff=10
+set sidescrolloff=15
+set sidescroll=1
+
