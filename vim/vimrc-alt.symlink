@@ -2,6 +2,7 @@
 " Last modifiend on:	2015 Septemper 10
 
 "Initial settings
+"================
 set number
 set term=screen-256color
 set tabstop=4
@@ -14,25 +15,31 @@ syntax on
 filetype plugin indent on
 
 
-"Activating pathogen
+"Pathogen
+"========
 execute pathogen#infect()
+
+"Plugins
+========
 
 "NERDTree
 autocmd vimenter * NERDTree "Configuring so NERDTree comes up when vim starts
 map <C-x> :NERDTreeToggle<CR> 
 
-"Managing splits easier
+"Splits
+"======
 nnoremap <C-J> <C-W><C-J> "Ctrl-j to move down a split
 nnoremap <C-K> <C-W><C-K> "Ctrl-k to move up a split  
 nnoremap <C-L> <C-W><C-L> "Ctrl-l to move    right a split  
 
-"Modal mapping
+"Mapping
+"=======
 nnoremap <leader><C-Q> <esc> :quit <cr>
 map <leader>rr :source ~/.vimrc<CR>
 
 "Scrolling
 "=========
-"
+
 " Start scrolling when we're getting close to margins
 set scrolloff=10
 set sidescrolloff=15
