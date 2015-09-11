@@ -24,7 +24,7 @@ execute pathogen#infect()
 
 "NERDTree
 autocmd vimenter * NERDTree "Configuring so NERDTree comes up when vim starts
-map <C-x> :NERDTreeToggle<CR> 
+map <C-t> :NERDTreeToggle<CR> 
 
 "Splits
 "======
