@@ -20,7 +20,7 @@ filetype plugin indent on
 execute pathogen#infect()
 
 "Plugins
-========
+"========
 
 "NERDTree
 autocmd vimenter * NERDTree "Configuring so NERDTree comes up when vim starts
