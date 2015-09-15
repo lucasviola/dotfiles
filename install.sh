@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # This script creates symlinks from the home directory to any desired dotfiles in ~/Workspace/dotfiles
 ############################
 
