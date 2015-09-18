@@ -34,7 +34,7 @@ map <C-t> :NERDTreeToggle<CR>
 
 "Mapping
 "=======
-nnoremap <leader><C-Q> <esc> :quit <cr>
+"nnoremap <leader><C-Q> <esc> :quit <cr>
 map <leader>rr :source ~/.vimrc<CR>
 
 "Scrolling
@@ -48,3 +48,7 @@ set sidescroll=1
 " Don't write a backup when overwriting
 set nobackup
 set nowritebackup
+" Turn off case sensitiveness on serches
+set ignorecase 
+" Better fold method
+set foldmethod=indent
