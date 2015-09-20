@@ -55,5 +55,5 @@ set nowritebackup
 set ignorecase 
 " Better fold method
 set foldmethod=indent
-
-set wildignore=*.swp, *.zip
+" Files to be ignored by vim
+set wildignore=*.swp, *.swo, *.zip
