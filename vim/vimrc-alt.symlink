@@ -56,4 +56,4 @@ set ignorecase
 " Better fold method
 set foldmethod=indent
 " Files to be ignored by vim
-set wildignore=*.swp, *.swo, *.zip
+set wildignore=*.swp, *.zip
